@@ -6,6 +6,7 @@ require "rpi_gpio"
 PIN_NUM = 7
 
 RPi::GPIO.set_numbering(:board)
+RPi::GPIO.set_warnings(false)
 
 RPi::GPIO.setup(PIN_NUM, as: :output)
 RPi::GPIO.set_high(PIN_NUM)
