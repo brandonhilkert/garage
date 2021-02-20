@@ -1,6 +1,8 @@
 require "rubygems"
 require "bundler/setup"
 
+require "rpi_gpio"
+
 PIN_NUM = 7
 
 RPi::GPIO.set_numbering(:board)
