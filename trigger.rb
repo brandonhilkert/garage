@@ -8,5 +8,6 @@ RPi::GPIO.set_numbering(:board)
 RPi::GPIO.setup(PIN_NUM, as: :output)
 RPi::GPIO.set_high(PIN_NUM)
 
-sleep
-RPi::GPIO.set_low PIN_NUM
+RPi::GPIO.set_low(PIN_NUM)
+sleep 0.2
+RPi::GPIO.set_high(PIN_NUM)
