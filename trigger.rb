@@ -1,4 +1,5 @@
-require "rpi_gpio"
+require "rubygems"
+require "bundler/setup"
 
 PIN_NUM = 7
 
