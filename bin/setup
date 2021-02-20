@@ -2,4 +2,5 @@
 
 sudo apt update
 sudo apt install -y ruby2.5
+gem install bundler
 bundle install
